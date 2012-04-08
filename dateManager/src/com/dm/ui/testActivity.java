@@ -24,7 +24,7 @@ public class testActivity extends Fragment {
         //master branch test
         
         //branch kkk 
-
+        //°û¼®Á¾ ¹Ùº¸
         return f;
     }
     
