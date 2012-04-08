@@ -19,7 +19,7 @@ public class mainActivity extends Activity{
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+		//my branch
 		setContentView(R.layout.main);
 		final ActionBar bar = getActionBar();
 		// kkk modified.
