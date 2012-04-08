@@ -9,7 +9,7 @@ import android.util.Log;
 
 public class AlertFragment extends DialogFragment {
 	Builder mB;
-	
+	//master modified
 	public AlertFragment(Builder b){
 		mB = b;
 	}

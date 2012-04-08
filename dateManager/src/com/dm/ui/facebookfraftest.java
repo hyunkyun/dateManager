@@ -35,7 +35,7 @@ public class facebookfraftest extends Fragment {
 	private LoginButton auth;
 	private Facebook mFacebook;
 	String[] permission;
-
+	//master
 	private AsyncFacebookRunner mAsyncRunner;
 	ProgressDialog dialog;	
 	
