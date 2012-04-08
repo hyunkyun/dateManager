@@ -22,9 +22,6 @@ public class testActivity extends Fragment {
         f.setArguments(args);
         //testtesttest dkfjaskdlfjakldfjkaldfjkladf
         //master branch test
-        
-        //branch kkk 
-        //°û¼®Á¾ ¹Ùº¸
         return f;
     }
     
