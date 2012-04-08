@@ -50,6 +50,7 @@ public class mainActivity extends Activity{
 		if (savedInstanceState != null) {
 			bar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));
 		}
+		//test test
 
 	}
 	
