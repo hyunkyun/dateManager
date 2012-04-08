@@ -22,7 +22,7 @@ public class mainActivity extends Activity{
 		
 		setContentView(R.layout.main);
 		final ActionBar bar = getActionBar();
-
+		// kkk modified.
 		bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE);
 
