@@ -20,8 +20,13 @@ public class testActivity extends Fragment {
         Bundle args = new Bundle();
         args.putInt("num", num);
         f.setArguments(args);
+<<<<<<< HEAD
         //testtesttest dkfjaskdlfjakldfjkaldfjkladf
         //master branch test
+=======
+        
+        //branch kkk 
+>>>>>>> refs/remotes/origin/kkk
         return f;
     }
     
