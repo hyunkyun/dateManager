@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_actionbar_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_actionbar_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_actionbar_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_actionbar_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_actionbar_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"/>
+</menu>

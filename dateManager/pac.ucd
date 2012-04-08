@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="pac" size="1334,1002" id="" metadata="uml2-1.0" initialized="true" scrolledX="-5" scrolledY="69" tag="1000" key="32303037303533312D31303030207465737430312F596F75">
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.2/@sourceConnections.0" name="org.test.data" size="447,545" id="org.test.data">
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@children.3/@sourceConnections.0 //@children.0/@children.2/@sourceConnections.0 //@children.0/@children.1/@sourceConnections.0" name="xmlData" location="12,38" size="95,99" runTimeClassModel="getObject(),print()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="65,36">
+        <children xsi:type="editmodel:MethodEditModel" name="getObject"/>
+        <children xsi:type="editmodel:MethodEditModel" name="print"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="unionData" location="2,172" size="127,301" runTimeClassModel="getObject(),tel,describeContents(),date,type,print(),contentId,writeToParcel(Landroid.os.Parcel;I),category,title,area,address,map,unionData(IILjava.lang.String;Ljava.lang.String;Lorg.test.data.gpsLocation;Lorg.test.data.area;Lorg.test.data.address;Lorg.test.data.category;Lorg.test.data.date;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="63,162">
+        <children xsi:type="editmodel:AttributeEditModel" name="category"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="contentId"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="date"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="address"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="area"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="map"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="title"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="tel"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="type"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,90">
+        <children xsi:type="editmodel:MethodEditModel" name="unionData"/>
+        <children xsi:type="editmodel:MethodEditModel" name="describeContents"/>
+        <children xsi:type="editmodel:MethodEditModel" name="writeToParcel"/>
+        <children xsi:type="editmodel:MethodEditModel" name="print"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getObject"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" source="//@children.0/@children.1" target="//@children.0/@children.0" targetEnd="//@children.0/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="45,99"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="codeData" location="306,172" size="127,175" runTimeClassModel="getObject(),codeData(Ljava.lang.String;Lorg.test.data.areaCode;),areaCode,describeContents(),type,print(),writeToParcel(Landroid.os.Parcel;I)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="66,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="areaCode"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="type"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,90">
+        <children xsi:type="editmodel:MethodEditModel" name="codeData"/>
+        <children xsi:type="editmodel:MethodEditModel" name="describeContents"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getObject"/>
+        <children xsi:type="editmodel:MethodEditModel" name="print"/>
+        <children xsi:type="editmodel:MethodEditModel" name="writeToParcel"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" source="//@children.0/@children.2" target="//@children.0/@children.0" targetEnd="//@children.0/@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="61,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="95,76"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="detailData" location="155,171" size="127,391" runTimeClassModel="getObject(),manager,modifiedTime,tel,detailData(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lorg.test.data.address;Lorg.test.data.gpsLocation;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lorg.test.data.relateGuide;Ljava.util.ArrayList;Ljava.lang.String;Lorg.test.data.exData;),mapImg,describeContents(),print(),relateGuide,homepage,transGuide,writeToParcel(Landroid.os.Parcel;I),title,imageList,overview,address,firstImg,map,videoURL">
+      <children xsi:type="editmodel:CompartmentEditModel" size="81,252">
+        <children xsi:type="editmodel:AttributeEditModel" name="title"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="manager"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="modifiedTime"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="tel"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="mapImg"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="relateGuide"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="homepage"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="transGuide"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="imageList"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="overview"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="address"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="firstImg"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="map"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="videoURL"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,90">
+        <children xsi:type="editmodel:MethodEditModel" name="writeToParcel"/>
+        <children xsi:type="editmodel:MethodEditModel" name="describeContents"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getObject"/>
+        <children xsi:type="editmodel:MethodEditModel" name="print"/>
+        <children xsi:type="editmodel:MethodEditModel" name="detailData"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" source="//@children.0/@children.3" target="//@children.0/@children.0" targetEnd="//@children.0/@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="57,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="79,99"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.3/@sourceConnections.0" name="org.test.pac" location="720,15" size="276,342" id="org.test.pac">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.1/@sourceConnections.0 //@children.1/@children.1/@sourceConnections.1" name="api" location="30,37" size="93,103" id="org.test.pac/api" runTimeClassModel="api(Ljava.lang.String;),key,getUrl([Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="70,18">
+        <children xsi:type="editmodel:AttributeEditModel" name="key" id="org.test.pac/api#key"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="58,36">
+        <children xsi:type="editmodel:MethodEditModel" name="api" id="org.test.pac/api#api(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getUrl" id="org.test.pac/api#getUrl([Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.2/@sourceConnections.2" name="TourApi" location="176,36" size="122,139" id="org.test.pac/TourApi" runTimeClassModel="TourApi(Ljava.lang.String;),getXmlTourAPI(Ljava.lang.String;),saveBytes(Ljava.lang.String;[B),setKey(Ljava.lang.String;),getUrl([Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="99,90">
+        <children xsi:type="editmodel:MethodEditModel" name="TourApi" id="org.test.pac/TourApi#TourApi(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getUrl" id="org.test.pac/TourApi#getUrl([Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getXmlTourAPI" id="org.test.pac/TourApi#getXmlTourAPI(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="saveBytes" id="org.test.pac/TourApi#saveBytes(Ljava.lang.String;[B)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setKey" id="org.test.pac/TourApi#setKey(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.test.pac/api&lt;-org.test.pac/TourApi" source="//@children.1/@children.1" target="//@children.1/@children.0" targetEnd="//@children.1/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,52" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="93,51"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.test.pac/TourApi-Standard::Derive->org.test.pac/api" source="//@children.1/@children.1" target="//@children.1/@children.0" targetEnd="//@children.1/@children.1/@sourceConnections.1/@children.2" label="//@children.1/@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,32" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="93,31"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="TourApiParser" location="172,182" size="132,175" id="org.test.pac/TourApiParser" runTimeClassModel="setUrl([Ljava.lang.String;),run(),org.test.pac.TourApiParser.TAGNUM,getXmlParser(Ljava.lang.String;Ljava.lang.String;),TourApiParser(Landroid.os.Handler;Ljava.lang.String;),act,strtParsing(),url">
+      <children xsi:type="editmodel:CompartmentEditModel" size="75,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="act" id="org.test.pac/TourApiParser#act"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="url" id="org.test.pac/TourApiParser#url"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="99,90">
+        <children xsi:type="editmodel:MethodEditModel" name="TourApiParser" id="org.test.pac/TourApiParser#TourApiParser(Landroid.os.Handler;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getXmlParser" id="org.test.pac/TourApiParser#getXmlParser(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="run" id="org.test.pac/TourApiParser#run()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setUrl" id="org.test.pac/TourApiParser#setUrl([Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="strtParsing" id="org.test.pac/TourApiParser#strtParsing()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.test.pac/xmlParser&lt;-org.test.pac/TourApiParser" source="//@children.1/@children.2" target="//@children.1/@children.3" targetEnd="//@children.1/@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,42" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="117,42"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.test.pac/TourApiParser-Standard::Derive->org.test.pac/xmlParser" source="//@children.1/@children.2" target="//@children.1/@children.3" targetEnd="//@children.1/@children.2/@sourceConnections.1/@children.2" label="//@children.1/@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,46" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="117,62"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.test.pac/TourApiParser-Soyatec::Import->org.test.pac/TourApi" source="//@children.1/@children.2" target="//@children.1/@children.1" targetEnd="//@children.1/@children.2/@sourceConnections.2/@children.2" label="//@children.1/@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="60,139"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.2/@sourceConnections.0 //@children.1/@children.2/@sourceConnections.1" name="xmlParser" location="20,182" size="117,85" id="org.test.pac/xmlParser" runTimeClassModel="getXmlParser(Ljava.lang.String;Ljava.lang.String;),strtParsing()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+        <children xsi:type="editmodel:MethodEditModel" name="getXmlParser" id="org.test.pac/xmlParser#getXmlParser(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="strtParsing" id="org.test.pac/xmlParser#strtParsing()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="525,15" size="137,46" fontInfo="Arial-8-0" note="Data package&#xD;&#xA;">
+    <sourceConnections xsi:type="editmodel:IndicationEditModel" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,46" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="441,112"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="548,263" size="137,46" fontInfo="Arial-8-0" note="Control package&#xD;&#xA;">
+    <sourceConnections xsi:type="editmodel:IndicationEditModel" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,23" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,269"/>
+    </sourceConnections>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

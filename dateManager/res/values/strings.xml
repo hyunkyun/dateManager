@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 테스트용 메시지 -->
+    <string name="hello">Hello World, DateManagerActivity!</string>
+    <string name="app_name">DateManager</string>
+    <string name="popup_menu_add">add</string>
+    <string name="popup_menu_search">search</string>
+    <string name="popup_menu_edit">edit</string>
+    <string name="popup_menu_share">share</string>
+    <string name="share">share2</string>
+    <string name="action_bar_settings">action Bar</string>
+    <string name="action_bar_handling">action Bar handling</string>
+    
+    <!-- 메뉴 스트링 -->
+    <string name="home">시작 화면</string>
+    
+    <string name="manage_schedule">스케쥴 관리</string>
+    <string name="show_schedule">스케쥴 보기</string>
+    <string name="new_schedule">새 스케쥴</string>
+    
+    <string name="search">장소 검색</string>
+    <string name="search_location">위치 기반 검색</string>
+    <string name="search_address">주소 기반 검색</string>
+    <string name="search_tray">장바구니 보기</string>
+    
+    <string name="sns">소셜 서비스</string>
+    <string name="sns_recommended">추천 코스 보기</string>
+    <string name="sns_upload">포스팅 하기</string>
+    
+    
+    
+    <!-- 환경 설정 관련 스트링 -->
+    <string name="setting">환경 설정</string>
+    <string name="set_facebook">페이스북 연동</string>
+    <string name="alert_facebook_title">계정 연동</string>
+    <string name="alert_facebook_content">
+        계정 연동 약관\n
+        본 어플리케이션에서는 별도의 회원가입 절차를 가지지 않고 Facebook계정의 정보를 이용하여 회원님의 정보를 관리합니다.
+        이에 동의하시겠습니까?\n
+    </string>
+    <string name="dialog_agree">동의</string>
+    <string name="dialog_disagree">거부</string>
+    
+   
+</resources>
