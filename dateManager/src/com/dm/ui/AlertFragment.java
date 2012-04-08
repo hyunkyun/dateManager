@@ -17,4 +17,9 @@ public class AlertFragment extends DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
     	return mB.create();
     }
+    public void test()
+    {
+    	;
+    	
+    }
 }
