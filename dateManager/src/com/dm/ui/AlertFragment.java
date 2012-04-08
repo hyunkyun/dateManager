@@ -9,10 +9,10 @@ import android.util.Log;
 
 public class AlertFragment extends DialogFragment {
 	Builder mB;
-	//master modified
+	//my branch modified
 	public AlertFragment(Builder b){
 		mB = b;
-	}
+	} 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
     	return mB.create();
