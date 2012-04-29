@@ -89,13 +89,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int search=0x7f02002c;
         public static final int setting=0x7f02002d;
         public static final int sns=0x7f02002e;
-        public static final int spinner_ab_disabled_holo_light=0x7f02002f;
-        public static final int star=0x7f020030;
-        public static final int sym_action_add=0x7f020031;
-        public static final int sym_keyboard_feedback_ok=0x7f020032;
-        public static final int test=0x7f020033;
-        public static final int test2=0x7f020034;
-        public static final int text_button=0x7f020035;
+        public static final int social=0x7f02002f;
+        public static final int spinner_ab_disabled_holo_light=0x7f020030;
+        public static final int star=0x7f020031;
+        public static final int sym_action_add=0x7f020032;
+        public static final int sym_keyboard_feedback_ok=0x7f020033;
+        public static final int test=0x7f020034;
+        public static final int test2=0x7f020035;
+        public static final int text_button=0x7f020036;
     }
     public static final class id {
         public static final int auth=0x7f09000b;
