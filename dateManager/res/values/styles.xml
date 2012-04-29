@@ -31,8 +31,24 @@
     </style>
  	<style name="myTabStyle"
  	    parent="android:style/style/Widget.Holo.Light.ActionBar.TabView">
-        <item name="android:background">@color/actionbar_background_light</item>
+        <item name="android:background">@color/light</item>
  	    <item name="android:paddingLeft">2dip</item>
  	    <item name="android:paddingRight">2dip</item>
  	</style>
+ 	<style name="nameStyle">
+ 	    <item name="android:layout_width">match_parent</item>
+ 	    <item name="android:layout_height">wrap_content</item>
+ 	    <item name="android:padding">5dip</item> 
+ 	    <item name="android:textSize">20dip</item>
+ 	    <item name="android:gravity">center</item>
+ 	    <item name="android:background">@color/main_color</item>
+ 	    <item name="android:textColor">@color/light</item>
+	</style>
+	<style name="message">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:textSize">20dip</item>
+	    <item name="android:padding">5dip</item>
+	</style>
 </resources>

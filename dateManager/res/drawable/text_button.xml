@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 손가락으로 누른 상태 -->
+<item	android:state_pressed="true"
+		android:drawable="@color/on" />
+<!-- 보통 상태 -->
+<item   android:state_enabled="true"
+		android:drawable="@color/light"/>
+<!-- 버튼이 enable 상태 -->
+<item 	android:state_enabled="false"
+		android:drawable="@color/main_color" />
+</selector>

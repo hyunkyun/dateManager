@@ -16,7 +16,7 @@
 
 package com.dm.content.facebook;
 
-import com.dm.content.facebooklib.Facebook;
+import com.dm.content.facebook.lib.Facebook;
 
 import android.content.Context;
 import android.content.SharedPreferences;

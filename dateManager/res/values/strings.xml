@@ -27,9 +27,18 @@
     <string name="sns_recommended">추천 코스 보기</string>
     <string name="sns_upload">포스팅 하기</string>
     
+    <!-- 홈 스트링 -->
+    <string name="id_ok">확인</string>
+    <string name="id_cancel">취소</string>
+    
+    <!-- Dialog -->
+    <string name="edit_dayCounter_title">날짜 계산</string>
+    <string name="edit_dayCounter_memo">정보</string>
+    <string name="edit_dayCounter_date">No Selected Day!</string>
     
     
-    <!-- 환경 설정 관련 스트링 -->
+    
+    <!-- Setting -->
     <string name="setting">환경 설정</string>
     <string name="set_facebook">페이스북 연동</string>
     <string name="alert_facebook_title">계정 연동</string>
@@ -40,6 +49,8 @@
     </string>
     <string name="dialog_agree">동의</string>
     <string name="dialog_disagree">거부</string>
+    
+
     
    
 </resources>

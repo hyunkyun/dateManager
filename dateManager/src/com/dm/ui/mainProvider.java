@@ -15,6 +15,11 @@ import com.dm.R;
 
 /*프로그램 최상단에 위치한 메뉴버튼 ActionProvider로 구현함
  * 아이스크림 샌드위치에서 제공되는 기능*/
+/***
+ * 
+ * @author HyunKyun
+ *
+ */
 public class mainProvider extends ActionProvider {
 	/** An intent for launching the system settings. */
 	//private static final Intent sSettingsIntent = new Intent(Settings.ACTION_SETTINGS);
@@ -38,7 +43,6 @@ public class mainProvider extends ActionProvider {
 		button.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Log.e("provider", "here");
 				PopupMenu popup = new PopupMenu(mContext, v);
 				popup.getMenuInflater().inflate(R.menu.popup, popup.getMenu());
 				popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
@@ -55,7 +59,7 @@ public class mainProvider extends ActionProvider {
 		});
 		return view;
 	}
-
+	
 	/**
 	 * {@inheritDoc}
 	 */

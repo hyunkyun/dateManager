@@ -20,8 +20,9 @@ public class DateManagerActivity extends Activity {
 		//   ActionBar actionBar = getActionBar();
 		// actionBar.hide();
 		// 로딩화면에서는 액션바를 숨긴다
-
+		
 		setContentView(R.layout.loading);
+		
 		Handler handler = new Handler(){
 			@Override
 			public void handleMessage(Message msg){

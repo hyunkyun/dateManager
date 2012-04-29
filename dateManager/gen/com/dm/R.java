@@ -31,10 +31,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tabLayout=0x7f010004;
     }
     public static final class color {
-        public static final int actionbar_background_dark=0x7f040001;
-        public static final int actionbar_background_light=0x7f040000;
+        public static final int dark=0x7f040001;
+        public static final int day=0x7f040004;
         public static final int drag_active_color=0x7f040002;
+        public static final int light=0x7f040000;
         public static final int main_color=0x7f040003;
+        public static final int on=0x7f040005;
     }
     public static final class dimen {
         public static final int titles_size=0x7f050000;
@@ -93,54 +95,68 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int sym_keyboard_feedback_ok=0x7f020032;
         public static final int test=0x7f020033;
         public static final int test2=0x7f020034;
+        public static final int text_button=0x7f020035;
     }
     public static final class id {
-        public static final int auth=0x7f090008;
-        public static final int home=0x7f090013;
-        public static final int item_actionbar_add=0x7f090004;
-        public static final int item_actionbar_delete=0x7f090007;
-        public static final int item_actionbar_edit=0x7f090003;
-        public static final int item_actionbar_save=0x7f090006;
-        public static final int item_actionbar_search=0x7f090005;
-        public static final int listview=0x7f09000d;
-        public static final int lprice=0x7f09000b;
-        public static final int mallname=0x7f09000c;
-        public static final int manage_schedule=0x7f090014;
+        public static final int auth=0x7f09000b;
+        public static final int dataItem01=0x7f090011;
+        public static final int dataItem02=0x7f090012;
+        public static final int dateCounterTitle=0x7f09000c;
+        public static final int dateCounter_Special=0x7f09000e;
+        public static final int edit_dayCounter_date=0x7f090005;
+        public static final int edit_dayCounter_memo=0x7f090003;
+        public static final int edit_dayCounter_memoData=0x7f090004;
+        public static final int fifth=0x7f09001b;
+        public static final int first=0x7f090017;
+        public static final int forth=0x7f09001a;
+        public static final int home=0x7f09001f;
+        public static final int iconItem=0x7f090010;
+        public static final int item_actionbar_add=0x7f090007;
+        public static final int item_actionbar_delete=0x7f09000a;
+        public static final int item_actionbar_edit=0x7f090006;
+        public static final int item_actionbar_save=0x7f090009;
+        public static final int item_actionbar_search=0x7f090008;
+        public static final int label=0x7f09000d;
+        public static final int layout_test=0x7f090015;
+        public static final int manage_schedule=0x7f090020;
         public static final int menuButton=0x7f090000;
-        public static final int menu_item_action_provider_action_bar=0x7f090011;
-        public static final int menu_item_action_provider_overflow=0x7f090012;
-        public static final int menu_share=0x7f09000f;
+        public static final int menu_item_action_provider_action_bar=0x7f09001d;
+        public static final int menu_item_action_provider_overflow=0x7f09001e;
+        public static final int menu_share=0x7f090014;
+        public static final int message=0x7f090016;
         public static final int msg_send=0x7f090002;
         public static final int msg_text=0x7f090001;
-        public static final int new_schedule=0x7f090015;
-        public static final int root=0x7f09000e;
-        public static final int search=0x7f090017;
-        public static final int search_address=0x7f090019;
-        public static final int search_location=0x7f090018;
-        public static final int search_tray=0x7f09001a;
-        public static final int setting=0x7f09001e;
-        public static final int show_schedule=0x7f090016;
-        public static final int sns=0x7f09001b;
-        public static final int sns_recommended=0x7f09001c;
-        public static final int sns_upload=0x7f09001d;
-        public static final int test=0x7f090010;
-        public static final int text=0x7f090009;
-        public static final int title=0x7f09000a;
+        public static final int new_schedule=0x7f090021;
+        public static final int root=0x7f090013;
+        public static final int search=0x7f090023;
+        public static final int search_address=0x7f090025;
+        public static final int search_location=0x7f090024;
+        public static final int search_tray=0x7f090026;
+        public static final int second=0x7f090018;
+        public static final int setting=0x7f09002a;
+        public static final int show_schedule=0x7f090022;
+        public static final int sixth=0x7f09001c;
+        public static final int sns=0x7f090027;
+        public static final int sns_recommended=0x7f090028;
+        public static final int sns_upload=0x7f090029;
+        public static final int test_list=0x7f09000f;
+        public static final int third=0x7f090019;
     }
     public static final class layout {
         public static final int action_provider=0x7f030000;
         public static final int c2dm=0x7f030001;
-        public static final int edit_menu=0x7f030002;
-        public static final int facebook=0x7f030003;
-        public static final int hello_world=0x7f030004;
-        public static final int listitem=0x7f030005;
-        public static final int listlayout=0x7f030006;
+        public static final int edit_day_counter=0x7f030002;
+        public static final int edit_menu=0x7f030003;
+        public static final int facebook=0x7f030004;
+        public static final int home=0x7f030005;
+        public static final int listitem=0x7f030006;
         public static final int loading=0x7f030007;
         public static final int main=0x7f030008;
-        public static final int photo_context_menu=0x7f030009;
+        public static final int photo_context_men2u=0x7f030009;
         public static final int tab_indicator=0x7f03000a;
-        public static final int tabtest=0x7f03000b;
+        public static final int testlayout=0x7f03000b;
         public static final int title_list_item=0x7f03000c;
+        public static final int weathe3r=0x7f03000d;
     }
     public static final class menu {
         public static final int action_provider=0x7f080000;
@@ -149,17 +165,26 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class string {
         public static final int action_bar_handling=0x7f060008;
         public static final int action_bar_settings=0x7f060007;
-        public static final int alert_facebook_content=0x7f060017;
-        public static final int alert_facebook_title=0x7f060016;
+        public static final int alert_facebook_content=0x7f06001c;
+        public static final int alert_facebook_title=0x7f06001b;
         public static final int app_name=0x7f060001;
-        public static final int dialog_agree=0x7f060018;
-        public static final int dialog_disagree=0x7f060019;
+        public static final int dialog_agree=0x7f06001d;
+        public static final int dialog_disagree=0x7f06001e;
+        public static final int edit_dayCounter_date=0x7f060018;
+        public static final int edit_dayCounter_memo=0x7f060017;
+        /**  Dialog 
+         */
+        public static final int edit_dayCounter_title=0x7f060016;
         /**  테스트용 메시지 
          */
         public static final int hello=0x7f060000;
         /**  메뉴 스트링 
          */
         public static final int home=0x7f060009;
+        public static final int id_cancel=0x7f060015;
+        /**  홈 스트링 
+         */
+        public static final int id_ok=0x7f060014;
         public static final int manage_schedule=0x7f06000a;
         public static final int new_schedule=0x7f06000c;
         public static final int popup_menu_add=0x7f060002;
@@ -170,10 +195,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int search_address=0x7f06000f;
         public static final int search_location=0x7f06000e;
         public static final int search_tray=0x7f060010;
-        public static final int set_facebook=0x7f060015;
-        /**  환경 설정 관련 스트링 
+        public static final int set_facebook=0x7f06001a;
+        /**  Setting 
          */
-        public static final int setting=0x7f060014;
+        public static final int setting=0x7f060019;
         public static final int share=0x7f060006;
         public static final int show_schedule=0x7f06000b;
         public static final int sns=0x7f060011;
@@ -184,7 +209,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ActionBar=0x7f070000;
         public static final int ActionBar_Light=0x7f070001;
         public static final int AppTheme_Light=0x7f070002;
+        public static final int message=0x7f070005;
         public static final int myTabStyle=0x7f070003;
+        public static final int nameStyle=0x7f070004;
     }
     public static final class styleable {
         /** Attributes that can be used with a AppTheme.

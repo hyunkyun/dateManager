@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dm.content.facebooklib;
+package com.dm.content.facebook.lib;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;

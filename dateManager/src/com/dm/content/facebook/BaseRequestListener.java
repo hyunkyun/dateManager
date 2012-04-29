@@ -6,8 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-import com.dm.content.facebooklib.FacebookError;
-import com.dm.content.facebooklib.AsyncFacebookRunner.RequestListener;
+import com.dm.content.facebook.lib.FacebookError;
+import com.dm.content.facebook.lib.AsyncFacebookRunner.RequestListener;
 
 import android.util.Log;
 

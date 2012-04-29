@@ -1,8 +1,8 @@
 package com.dm.content.facebook;
 
-import com.dm.content.facebooklib.DialogError;
-import com.dm.content.facebooklib.FacebookError;
-import com.dm.content.facebooklib.Facebook.DialogListener;
+import com.dm.content.facebook.lib.DialogError;
+import com.dm.content.facebook.lib.FacebookError;
+import com.dm.content.facebook.lib.Facebook.DialogListener;
 
 
 /**

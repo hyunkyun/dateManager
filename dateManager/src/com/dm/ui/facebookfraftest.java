@@ -20,12 +20,17 @@ import com.dm.content.facebook.LoginButton;
 import com.dm.content.facebook.SessionEvents;
 import com.dm.content.facebook.SessionEvents.AuthListener;
 import com.dm.content.facebook.SessionEvents.LogoutListener;
+import com.dm.content.facebook.lib.AsyncFacebookRunner;
+import com.dm.content.facebook.lib.Facebook;
+import com.dm.content.facebook.lib.FacebookError;
+import com.dm.content.facebook.lib.Util;
 import com.dm.content.facebook.SessionStore;
-import com.dm.content.facebooklib.AsyncFacebookRunner;
-import com.dm.content.facebooklib.Facebook;
-import com.dm.content.facebooklib.FacebookError;
-import com.dm.content.facebooklib.Util;
 
+/***
+ * 
+ * @author HyunKyun
+ *
+ */
 public class facebookfraftest extends Fragment {
 	
 	//public static final String APP_ID = "225012670861641";

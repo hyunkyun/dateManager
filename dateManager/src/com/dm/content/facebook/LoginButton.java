@@ -32,12 +32,12 @@ import android.widget.ImageButton;
 import com.dm.R;
 import com.dm.content.facebook.SessionEvents.AuthListener;
 import com.dm.content.facebook.SessionEvents.LogoutListener;
-import com.dm.content.facebooklib.AsyncFacebookRunner;
-import com.dm.content.facebooklib.DialogError;
-import com.dm.content.facebooklib.Facebook;
-import com.dm.content.facebooklib.Facebook.DialogListener;
-import com.dm.content.facebooklib.FacebookError;
-import com.dm.ui.AlertFragment;
+import com.dm.content.facebook.lib.AsyncFacebookRunner;
+import com.dm.content.facebook.lib.DialogError;
+import com.dm.content.facebook.lib.Facebook;
+import com.dm.content.facebook.lib.FacebookError;
+import com.dm.content.facebook.lib.Facebook.DialogListener;
+import com.dm.ui.dialog.AlertFragment;
 
 public class LoginButton extends ImageButton {
 
@@ -156,7 +156,7 @@ public class LoginButton extends ImageButton {
 			public void onClick(DialogInterface dialog, int whichButton) {
 			}
 		} );
-		DialogFragment newFragment = new AlertFragment(d);
-		newFragment.show(mActivity.getFragmentManager(), "dialog");
+		//DialogFragment newFragment = new AlertFragment(d);
+		//newFragment.show(mActivity.getFragmentManager(), "dialog");
 	}
 }

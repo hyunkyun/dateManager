@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dm.content.facebooklib;
+package com.dm.content.facebook.lib;
 
 /**
  * Encapsulation of a Facebook Error: a Facebook request that could not be

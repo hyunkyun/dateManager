@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dateCounterTitle"
+        style="@style/nameStyle"
+        android:text="날   짜   계   산" />
+    <Button
+        android:id="@+id/label"
+        style="@style/message"
+        android:background="@drawable/text_button"
+        android:text="입력된 날짜가 없습니다." />
+    
+    <TextView
+        android:id="@+id/dateCounter_Special"
+        style="@style/nameStyle"
+        android:text="가 까 운   기 념 일"/>
+    
+    <LinearLayout
+        android:id="@+id/test_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>
