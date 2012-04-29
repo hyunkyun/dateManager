@@ -32,7 +32,7 @@ public class homeFragment extends Fragment {
         args.putInt("num", num);
         f.setArguments(args);
         return f;
-    }
+    }//hi
     
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
