@@ -3,25 +3,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
     android:orientation="vertical">
+    
     <TextView
         android:id="@+id/dateCounterTitle"
         style="@style/nameStyle"
-        android:text="날   짜   계   산" />
-    <Button
-        android:id="@+id/label"
-        style="@style/message"
-        android:background="@drawable/text_button"
-        android:text="입력된 날짜가 없습니다." />
+        android:text="Day Counter" />
     
-    <TextView
+    <FrameLayout
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/no_day"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="입력된 날짜가 없습니다."
+            android:gravity="center"
+            android:visibility="visible"
+            android:background="@drawable/text_button"
+            />
+        <LinearLayout
+            android:id="@+id/hasday_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            android:background="@drawable/text_button"
+            >
+            <TextView
+                android:id="@+id/hasday_memo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="no memo"
+                android:textSize="20dip"
+                android:layout_weight="3"
+                />
+            
+            <TextView
+                android:id="@+id/hasday_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="yyyy.mm.dd"
+                android:textSize="10dip"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+	</FrameLayout>
+
+	<TextView
         android:id="@+id/dateCounter_Special"
         style="@style/nameStyle"
-        android:text="가 까 운   기 념 일"/>
-    
+        android:text="Upcomming Special Day"/>
     <LinearLayout
         android:id="@+id/test_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
     </LinearLayout>
+    
 </LinearLayout>

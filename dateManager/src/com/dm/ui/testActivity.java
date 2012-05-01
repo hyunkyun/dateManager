@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.dm.R;
-import com.dm.service.db.CategoryDAO;
-import com.dm.service.db.CategoryDAO.Category;
+import com.dm.service.db.CategoryManager;
+import com.dm.service.db.CategoryManager.Category;
 
 /***
  * 
@@ -49,10 +49,10 @@ public class testActivity extends Fragment {
         
         //to test database access with LogCat
         
-        CategoryDAO test = new CategoryDAO(getActivity());
+        CategoryManager test = new CategoryManager(getActivity());
         Category c = new Category(-1, "ㅎㅎㅎ");
         //test.deleteCategory(6);
-        msg.setText("" + test.insertCategory(c));
+        msg.setText("" + test.insert(c));
         
         /*if( test.insertCategory(c) == false)
         	msg.setText("입력에 실패하였습니다.");

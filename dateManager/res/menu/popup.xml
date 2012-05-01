@@ -15,48 +15,48 @@
 -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/home"
-          android:icon="@drawable/home"
+          android:icon="@drawable/home_icon"
           android:title="@string/home" />
     <item android:id="@+id/manage_schedule"
-          android:icon="@drawable/sym_action_add"
+          android:icon="@drawable/schedule_icon"
           android:title="@string/manage_schedule">
             <menu>
 	            <item android:id="@+id/new_schedule"
-	                  android:icon="@drawable/ic_menu_mapmode"
+	                  android:icon="@drawable/schedule_icon"
 	                  android:title="@string/new_schedule"/>
 	            <item android:id="@+id/show_schedule"
-	                  android:icon="@drawable/ic_btn_search"
+	                  android:icon="@drawable/schedule_icon"
 	                  android:title="@string/show_schedule"/>
 			</menu>
     </item>
     <item android:id="@+id/search"
-          android:icon="@drawable/search"
+          android:icon="@drawable/search_icon"
           android:title="@string/search">
         <menu>
             <item android:id="@+id/search_location"
-                  android:icon="@drawable/ic_menu_mapmode"
+                  android:icon="@drawable/recommend_icon"
                   android:title="@string/search_location"/>
             <item android:id="@+id/search_address"
-                  android:icon="@drawable/ic_btn_search"
+                  android:icon="@drawable/recommend_icon"
                   android:title="@string/search_address"/>
             <item android:id="@+id/search_tray"
-                  android:icon="@drawable/ic_btn_search"
+                  android:icon="@drawable/recommend_icon"
                   android:title="@string/search_tray"/>
         </menu>
     </item>
     <item android:id="@+id/sns"
-        android:icon="@drawable/sns"
+        android:icon="@drawable/recommend_icon"
         android:title="@string/sns">
         <menu>
             <item android:id="@+id/sns_recommended"
-                  android:icon="@drawable/recommended"
+                  android:icon="@drawable/recommend_icon"
                   android:title="@string/sns_recommended"/>
             <item android:id="@+id/sns_upload"
-                  android:icon="@drawable/ic_menu_edit"
+                  android:icon="@drawable/recommend_icon"
                   android:title="@string/sns_upload"/>
         </menu>
         </item>
     <item android:id="@+id/setting"
-        android:icon="@drawable/setting"
+        android:icon="@drawable/setting_icon"
         android:title="@string/setting"/>
 </menu>

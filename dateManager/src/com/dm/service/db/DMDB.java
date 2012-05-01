@@ -5,6 +5,7 @@ package com.dm.service.db;
  * @author HyunKyun
  *
  */
+
 public final class DMDB{
 	DMDB(){}
 	
@@ -76,6 +77,19 @@ public final class DMDB{
 		public String[] getColomnNames() {
 			String[] colomnNames = {ID, NAME};
 			return colomnNames;
+		}
+	}
+	
+	public final class SettingTable extends table{
+		private SettingTable(){}
+		public static final String TABLE_NAME = "settings";
+		public static final String ID="_id";
+		public static final String VALUE = "value";
+		
+		@Override
+		public String[] getColomnNames() {
+			String[] columnNames = {};
+			return columnNames;
 		}
 	}
 }

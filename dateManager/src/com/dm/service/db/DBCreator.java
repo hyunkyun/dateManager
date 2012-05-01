@@ -7,7 +7,7 @@ package com.dm.service.db;
  */
 public interface DBCreator{
 	public static final String DB_NAME = "DMDB.db";
-	public static final int DB_VERSION = 1;
+	public static final int DB_VERSION = 18;
 	
 	/***
 	 * Table Definition Statement
@@ -34,4 +34,6 @@ public interface DBCreator{
 	 * @return				: String[]
 	 */
 	public String[] getInitDataInsertStmt();
+	
+	public String[] getDropTableStmt();
 }

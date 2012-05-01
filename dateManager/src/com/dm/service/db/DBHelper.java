@@ -35,7 +35,7 @@ public class DBHelper extends SQLiteOpenHelper{
 	public DBHelper(Context context, String name, CursorFactory factory,
 			int version) {
 		super(context, name, factory, version);
-		Log.v(TAG, DBHelper.CLASSNAME + "Create or Open : " + name + " in DBHelper.java");
+		Log.v(TAG, DBHelper.CLASSNAME + "(Context context, String name, CursorFactory factory,int version)");
 	}
 	/***
 	 * Simple Constructor
@@ -56,14 +56,12 @@ public class DBHelper extends SQLiteOpenHelper{
 		if(mInstance == null){
 			synchronized(DBHelper.class){
 				if(mInstance == null){
-					Log.v(TAG, DBHelper.CLASSNAME + " create");
 					mInstance = new DBHelper(context);
 					try{
 						db = mInstance.getWritableDatabase();
 					}catch(SQLiteException se){
 						Log.e(TAG, "Could not open db in DBHelper.java");
 					}
-					Log.i(TAG, DBHelper.CLASSNAME + " db instance " + DBCreator.DB_NAME + " created!");
 				}
 			}
 		}
@@ -75,6 +73,7 @@ public class DBHelper extends SQLiteOpenHelper{
 	 * @return			:singletone instance
 	 */
 	public static final DBHelper getInstance(Context context){
+		Log.v(TAG, "getInstance()");
 		initialize(context);
 		return mInstance;
 	}
@@ -228,18 +227,21 @@ public class DBHelper extends SQLiteOpenHelper{
 			{
 				Log.v(TAG, DBHelper.CLASSNAME + " - onCreate() : Table Creation");
 				for(int i = 0 ; i < tableCreateStmt.length; i++){
+					Log.v(TAG, "Execute : " + tableCreateStmt[i]);
 					db.execSQL(tableCreateStmt[i]);
 				}
 			}
 			if(indexCreateStmt != null && indexCreateStmt.length > 0){
 				Log.v(TAG, DBHelper.CLASSNAME + " - onCreate() : Index Creation");
 				for(int i = 0 ; i < indexCreateStmt.length; i++){
+					Log.v(TAG, "Execute : " + indexCreateStmt[i]);
 					db.execSQL(indexCreateStmt[i]);
 				}
 			}
 			if(initDataDml != null && initDataDml.length > 0){
 				Log.v(TAG, DBHelper.CLASSNAME + " - onCreate() : initData Creation");
 				for(int i = 0 ; i < initDataDml.length; i++){
+					Log.v(TAG, "Execute : " + initDataDml[i]);
 					db.execSQL(initDataDml[i]);
 				}
 			}
@@ -254,7 +256,26 @@ public class DBHelper extends SQLiteOpenHelper{
 	 * @param to		: to this version
 	 */
 	@Override
-	public void onUpgrade(SQLiteDatabase arg0, int from, int to) {
+	public void onUpgrade(SQLiteDatabase database, int from, int to) {
+		
+		DBCreator mCreator = new DMDBCreator();
+		String[] dropDatadml = mCreator.getDropTableStmt();
+		
+		try{
+			if(dropDatadml != null && dropDatadml.length > 0)
+			{
+				Log.v(TAG, DBHelper.CLASSNAME + " - onUpdate() : Table Dropped");
+				for(int i = 0 ; i < dropDatadml.length; i++){
+					database.execSQL(dropDatadml[i]);
+					Log.v(TAG, "Execute : " + dropDatadml[i]);
+				}
+			}
+		}
+		catch(SQLException e){
+			Log.e(TAG, DBHelper.CLASSNAME + " - onUpdate() : Updating Error" + e.toString());
+		}
 		Log.v(TAG, DBHelper.CLASSNAME + " - onUpgrade() from" + from + " to " + to);
+		
+		onCreate(database);
 	}
 }

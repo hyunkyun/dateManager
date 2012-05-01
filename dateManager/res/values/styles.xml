@@ -25,9 +25,6 @@
         <item name="android:actionBarStyle">@style/ActionBar.Light</item>
         <item name="android:windowActionBarOverlay">false</item>
         <item name="listDragShadowBackground">@android:color/background_light</item>
-        <item name="menuIconCamera">@drawable/ic_menu_camera_holo_light</item>
-        <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_light</item>
-        <item name="menuIconShare">@drawable/ic_menu_share_holo_light</item>
     </style>
  	<style name="myTabStyle"
  	    parent="android:style/style/Widget.Holo.Light.ActionBar.TabView">

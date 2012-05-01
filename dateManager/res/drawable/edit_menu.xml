@@ -2,23 +2,10 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 	<item android:state_pressed="true"
 	    android:state_selected="true"
-	    android:drawable="@drawable/ic_menu_camera_holo_dark" />
+	    android:drawable="@drawable/recommend_icon" />
 	<item android:state_selected="true"
-	    android:drawable="@drawable/ic_menu_camera_holo_light" />
+	    android:drawable="@drawable/search_icon" />
 	<item android:state_pressed="true"
-	    android:drawable="@drawable/ic_menu_camera_holo_light" />
-	<item android:drawable="@drawable/ic_menu_camera_holo_dark" />
+	    android:drawable="@drawable/recommend_icon" />
+	<item android:drawable="@drawable/search_icon" />
 </selector> 
-
-<!-- 
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:state_pressed="true"
-	    android:state_selected="true"
-	    android:drawable="@drawable/minitab_lt_press" />
-	<item android:state_selected="true"
-	    android:drawable="@drawable/minitab_lt_selected" />
-	<item android:state_pressed="true"
-	    android:drawable="@drawable/minitab_lt_unselected_press" />
-	<item android:drawable="@drawable/minitab_lt_unselected" />
-</selector> 
- -->

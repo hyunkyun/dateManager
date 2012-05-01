@@ -6,9 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-import android.view.Window;
-import android.view.WindowManager;
 
+import com.dm.service.db.DBHelper;
 import com.dm.ui.mainActivity;
 
 public class DateManagerActivity extends Activity {
@@ -22,7 +21,7 @@ public class DateManagerActivity extends Activity {
 		// 로딩화면에서는 액션바를 숨긴다
 		
 		setContentView(R.layout.loading);
-		
+				
 		Handler handler = new Handler(){
 			@Override
 			public void handleMessage(Message msg){

@@ -1,11 +1,9 @@
 package com.dm.ui;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.ActionProvider;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
-import android.view.SubMenu;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
@@ -29,7 +27,6 @@ public class mainProvider extends ActionProvider {
 	public mainProvider(Context context) {
 		super(context);
 		mContext = context;
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
