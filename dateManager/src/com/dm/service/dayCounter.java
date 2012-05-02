@@ -194,7 +194,7 @@ public class dayCounter{
 		
 		for(int i = 0 ; i < 4 ; i++){
 			Day itr = new Day();
-			itr.setDate(start + i * 50 * 24 * 3600 * 1000);
+			itr.setDate(start + i * 50 * 1000*60*60*24);
 			itr.setMemo(""+ k*100 + "ÀÏ ±â³äÀÏ");
 			l.add(itr);
 			k++;
