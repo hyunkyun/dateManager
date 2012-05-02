@@ -18,9 +18,11 @@
             android:id="@+id/no_day"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="입력된 날짜가 없습니다."
+            android:text="@string/dayCounterNoday"
+            android:textSize="20dip"
             android:gravity="center"
-            android:visibility="visible"
+            android:padding="20dip"
+            android:visibility="invisible"
             android:background="@drawable/text_button"
             />
         <LinearLayout
@@ -28,7 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:visibility="invisible"
+            android:visibility="visible"
+            android:padding="20dip"
             android:background="@drawable/text_button"
             >
             <TextView
@@ -40,21 +43,39 @@
                 android:layout_weight="3"
                 />
             
-            <TextView
-                android:id="@+id/hasday_date"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:text="yyyy.mm.dd"
-                android:textSize="10dip"
                 android:layout_weight="1"
-                android:gravity="center"/>
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hasday_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="x일째"
+                    android:textColor="@color/dark"
+                    android:textSize="15dip" />
+                <TextView
+                    android:id="@+id/hasday_startdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="yyyy.mm.dd"
+                    android:textColor="@color/dark"
+                    android:textSize="10dip" />
+            </LinearLayout>
+            
         </LinearLayout>
+
 	</FrameLayout>
 
 	<TextView
         android:id="@+id/dateCounter_Special"
         style="@style/nameStyle"
         android:text="Upcomming Special Day"/>
+	
     <LinearLayout
         android:id="@+id/test_list"
         android:layout_width="match_parent"

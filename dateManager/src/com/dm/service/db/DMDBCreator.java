@@ -102,7 +102,6 @@ public class DMDBCreator implements DBCreator{
 			+ " (" + SettingTable.ID + ", " + SettingTable.VALUE + ")" + 
 			"VALUES('" + dayCounter.DATE_KEY + "', '1322997918192')";
 	
-
 	//******************************************************
 	@Override
 	public String[] getCreateTablesStmt() {

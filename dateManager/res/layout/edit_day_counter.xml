@@ -27,16 +27,16 @@
  
     <TextView
         android:id="@+id/edit_dayCounter_date"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="5dip"
-        android:paddingBottom="5dip"
-        android:paddingLeft="10dip"
-        android:paddingRight="10dip"
-        android:background="@color/day"
+        android:layout_margin="20dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
         android:gravity="center"
+        android:background="@drawable/text_button"
         android:text="@string/edit_dayCounter_date"
         android:textAppearance="?android:attr/textAppearanceMedium" />
-    
 </LinearLayout>

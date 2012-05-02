@@ -161,8 +161,8 @@ public class DBHelper extends SQLiteOpenHelper{
 	 * @param whereClause	: Where Clause
 	 * @return				: int
 	 */
-	public int delete(String table, String whereClause){
-		return db.delete(table, whereClause, null);
+	public int delete(String table, String id){
+		return db.delete(table, KEY_COLUMN + "='" + id + "'", null);
 	}
 	
 	/***

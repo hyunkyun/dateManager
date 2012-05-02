@@ -74,8 +74,8 @@ public class SettingManager{
 		}
 		
 		public void delete(final String id){
-			Log.v(TAG, SettingManager.CLASSNAME + " delete id:" + id );
-			db.delete(ScheduleTable.TABLE_NAME, id);
+			Log.v(TAG, SettingManager.CLASSNAME + " delete id:" + id);
+			db.delete(SettingTable.TABLE_NAME, id);
 		}
 		
 		public List<Setting> get(){

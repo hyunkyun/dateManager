@@ -35,8 +35,7 @@
     <string name="edit_dayCounter_title">날짜 계산</string>
     <string name="edit_dayCounter_memo">정보</string>
     <string name="edit_dayCounter_date">No Selected Day!</string>
-    
-    
+    <string name="dayCounterNoday">입력된 날짜가 없습니다.</string>
     
     <!-- Setting -->
     <string name="setting">환경 설정</string>

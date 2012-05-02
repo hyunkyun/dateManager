@@ -7,7 +7,7 @@ package com.dm.service.db;
  */
 public interface DBCreator{
 	public static final String DB_NAME = "DMDB.db";
-	public static final int DB_VERSION = 18;
+	public static final int DB_VERSION = 19;
 	
 	/***
 	 * Table Definition Statement

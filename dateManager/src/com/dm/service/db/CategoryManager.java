@@ -61,10 +61,6 @@ public class CategoryManager{
 			Log.v(TAG, CategoryManager.CLASSNAME + " insert id:" + to.getId() + ", name:" +  to.getName());
 			long rowId = db.insert(CategoryTable.TABLE_NAME, values);
 			return rowId;
-			/*if(rowId < 0){
-				return false;
-			}
-			return true;*/
 		}
 		/***
 		 * method to update data
