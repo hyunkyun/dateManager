@@ -38,5 +38,9 @@
         <activity android:name="test.android.test.C2dmTestActivity"
             android:theme="@style/AppTheme.Light" >
         </activity>
+        
+		<activity android:name=".ui.tourApiView"
+            android:theme="@style/AppTheme.Light" ></activity>
+		
     </application>
 </manifest>

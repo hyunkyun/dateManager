@@ -40,8 +40,8 @@ public class mainActivity extends Activity{
 						this, "NewSchedule", testActivity.class)));
 		bar.addTab(bar.newTab()
 				.setIcon(R.drawable.search_icon)
-				.setTabListener(new TabListener<testActivity>(
-						this, "weather", testActivity.class)));
+				.setTabListener(new TabListener<areaSearchFrag>(
+						this, "weather", areaSearchFrag.class)));
 		bar.addTab(bar.newTab()
 				.setIcon(R.drawable.recommend_icon)
 				.setTabListener(new TabListener<testActivity>(
@@ -73,7 +73,6 @@ public class mainActivity extends Activity{
 				Toast.LENGTH_SHORT).show();
 		return false;
 	}
-
 
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/surSearchDis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="단위는 m 최대 1000까지 가능" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/surSearchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 위치 주변" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/searchLoctionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="검색할 장소를 입력하세요." />
+
+        <Button
+            android:id="@+id/nameSearchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="직접 검색" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카테고리 검색"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/searchLeports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="레포츠" />
+
+        <Button
+            android:id="@+id/searchLodging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="숙박" />
+
+        <Button
+            android:id="@+id/searchChophouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="음식점" />
+
+        <Button
+            android:id="@+id/searchCulture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="문화관광" />
+
+    </LinearLayout>
+
+</LinearLayout>
